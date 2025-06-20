@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+}
+
+.react-flow__handle {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  background-color: #adb5bd !important;
+  border: 2px solid #fff !important;
+  box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+
+.react-flow__handle-connecting {
+  background-color: #007bff !important;
+}
+.react-flow__handle-valid {
+  background-color: #28a745 !important;
+}
+
+.vs-node label {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 4px;
+  margin-top: 8px;
+}
+.vs-node label:first-child {
+  margin-top: 0;
+}
+
+
+.vs-node input[type="text"],
+.vs-node select,
+.vs-node textarea {
+  width: 100%;
+  padding: 6px 8px;
+  font-size: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.vs-node input[type="text"]:focus,
+.vs-node select:focus,
+.vs-node textarea:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
